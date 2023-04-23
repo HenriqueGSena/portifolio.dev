@@ -7,6 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue": "^2.23.1",
+    "prettier": "^2.8.8",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0"
   },
