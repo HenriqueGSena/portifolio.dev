@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@volar-plugins/vetur": "latest",
     "bootstrap": "^5.2.3",
-    "bootstrap-vue": "^2.23.1",
     "prettier": "^2.8.8",
     "vue": "^3.2.13",
-    "@volar-plugins/vetur": "latest",
-    "vue-class-component": "^8.0.0-0"
+    "vue-class-component": "^8.0.0-0",
+    "vue-i18n": "^9.2.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-typescript": "~5.0.0",

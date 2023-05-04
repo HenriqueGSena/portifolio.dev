@@ -1,15 +1,16 @@
 <template>
-  <Page />
+  <Header />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import "./styles/global.css"
-import Page from './components/Page.vue';
+import Header from './components/Header.vue';
+import "./styles/main.css";
+import "./styles/scroll.css";
 
 @Options({
   components: {
-    Page,
+    Header,
   },
 })
 export default class App extends Vue {}
