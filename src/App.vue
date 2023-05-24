@@ -15,3 +15,5 @@ import "./styles/scroll.css";
 })
 export default class App extends Vue {}
 </script>
+
+<style scoped src="./styles/main.css"></style>

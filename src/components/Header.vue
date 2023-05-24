@@ -1,11 +1,24 @@
 <template>
-    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
-      <div class="navbar-nav">
-        <a class="navbar-brand" href="#" v-text="$t('homeMenu.projects')"></a>
-        <a class="navbar-brand" href="#" v-text="$t('homeMenu.aboutMe')"></a>
-        <a class="navbar-brand" href="#" v-text="$t('homeMenu.contact')"></a>
-      </div>
-    </nav>
+    <div class="menu">
+      <ul class="nav justify-content-center">
+        <div class="logo">
+          <li class="nav-item">
+            <a>
+              <img src="../assets/logo.png" alt="logo" href="home">
+            </a>
+          </li>
+        </div>
+        <li class="nav-item">
+          <a class="nav-link" href="projects" v-text="$t('homeMenu.projects')"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about" v-text="$t('homeMenu.aboutMe')"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact" v-text="$t('homeMenu.contact')"></a>
+        </li>
+      </ul>
+    </div>
 </template>
 
 <script lang="ts">
@@ -16,13 +29,18 @@ export default {
 
 <style scoped>
 
-* {
-  background: rgba( 255, 255, 255, 0 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 2.5px );
-  -webkit-backdrop-filter: blur( 2.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+.menu {
+  position: fixed;
+  width: 100%;
+  padding: 13px;
+  font-family: "Poppins", sans-serif;
+  z-index: 999;
+  transition: all 0.3s ease;
+  background: #1b1b1b;
+}
+
+.logo {
+  width: 25%;
 }
 
 </style>
