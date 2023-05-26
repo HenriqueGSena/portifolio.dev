@@ -4,7 +4,7 @@
         <div class="logo">
           <li class="nav-item">
             <a>
-              <img src="../assets/logo.png" alt="logo" href="home">
+              <img src="@/assets/logo.png" alt="logo" href="home">
             </a>
           </li>
         </div>
@@ -21,11 +21,7 @@
     </div>
 </template>
 
-<script lang="ts">
-export default {
-    name: "Header",
-};
-</script>
+<script lang="ts" src="./Header.component.ts"></script>
 
 <style scoped>
 
