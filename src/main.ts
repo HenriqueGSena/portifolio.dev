@@ -1,12 +1,12 @@
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import App from './App.vue'
-import { menu } from './i18n/en/labels'
+import { menu } from './i18n/en/menu'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 
 const languages = {
-    menu
+    menu: menu
 };
 
 const i18n = createI18n({
