@@ -1,27 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <Header />
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
+<script lang="ts" src="./App.component.ts"></script>
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
-</script>
+<style scoped>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* Fonte Menu*/
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"); */
+/*font-family: "Poppins", sans-serif;
+
+/*Fonte Titulo*/
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); */
+/*font-family: 'Poppins', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+    transition: 0.25 opacity;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
 </style>
