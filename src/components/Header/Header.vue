@@ -3,9 +3,9 @@
       <ul class="nav justify-content-center">
         <div class="logo">
           <li class="nav-item">
-            <a>
+            <!-- <a>
               <img src="@/assets/logo.png" alt="logo" href="home">
-            </a>
+            </a> -->
           </li>
         </div>
         <li class="nav-item">
@@ -24,6 +24,9 @@
 <script lang="ts" src="./Header.component.ts"></script>
 
 <style scoped>
+
+/* Fonte Menu*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 .menu {
   position: fixed;

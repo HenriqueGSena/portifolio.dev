@@ -1,10 +1,12 @@
 import { Options, Vue } from 'vue-class-component';
 import Header from './components/Header/Header.vue';
+import home from './components/home/home.vue';
 import "./styles/scroll.css";
 
 @Options({
     components: {
-        Header
-    },
+        Header,
+        home
+    }
 })
-export default class App extends Vue { }
+export default class App extends Vue {}
