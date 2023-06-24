@@ -35,7 +35,7 @@
   font-family: "Poppins", sans-serif;
   z-index: 999;
   transition: all 0.3s ease;
-  background: #1b1b1b;
+  background: #242423;
 }
 
 .logo {
