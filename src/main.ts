@@ -1,17 +1,16 @@
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import App from './App.vue'
-import { menu } from './i18n/en/menu'
+import { optionsLanguages } from './i18n/en/global'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 
 const languages = {
-    menu: menu
+    optionsLanguages: optionsLanguages,
 };
 
 const i18n = createI18n({
-    locale: 'menu',
-    fallbackLocale: 'menu',
+    locale: 'optionsLanguages',
     messages: languages
 });
 

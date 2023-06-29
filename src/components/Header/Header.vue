@@ -9,13 +9,13 @@
           </li>
         </div>
         <li class="nav-item">
-          <a class="nav-link" href="projects" v-text="$t('homeMenu.projects')"></a>
+          <a class="nav-link" href="about" style="color: #27AE60;" v-text="$t('portfolioDevTranslate.menu.aboutMe')"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about" v-text="$t('homeMenu.aboutMe')"></a>
+          <a class="nav-link" href="projects" style="color: #27AE60;" v-text="$t('portfolioDevTranslate.menu.projects')"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact" v-text="$t('homeMenu.contact')"></a>
+          <a class="nav-link" href="contact" style="color: #27AE60;" v-text="$t('portfolioDevTranslate.menu.contact')"></a>
         </li>
       </ul>
     </div>
@@ -31,7 +31,7 @@
 .menu {
   position: fixed;
   width: 100%;
-  padding: 13px;
+  padding: 2%;
   font-family: "Poppins", sans-serif;
   z-index: 999;
   transition: all 0.3s ease;
@@ -39,7 +39,7 @@
 }
 
 .logo {
-  width: 25%;
+  width: 15%;
 }
 
 </style>
