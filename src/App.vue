@@ -7,10 +7,6 @@
 
 <style scoped>
 
-/*Fonte Titulo*/
-/*; */
-/*font-family: 'Poppins', sans-serif;*/
-
 * {
     padding: 0;
     margin: 0;
