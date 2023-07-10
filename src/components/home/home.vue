@@ -2,7 +2,7 @@
   <div class="home-page">
     <div class="container">
       <div class="row">
-        <div class="col-6 bg-primary p-5">
+        <div class="col-6 bg-primary" style="margin-top: 40%; margin-bottom: auto">
           <p>lorem iplkdsvbnkljsbndjkvbnklsjbnvkljnsjklvnslvnklsv</p>
         </div>
         <div class="col-6">
