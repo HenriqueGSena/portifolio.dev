@@ -7,19 +7,4 @@
 
 <style scoped>
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    transition: 0.25 opacity;
-}
-
-a:hover {
-    opacity: 0.8;
-}
-
 </style>
