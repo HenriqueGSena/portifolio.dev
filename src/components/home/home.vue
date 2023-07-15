@@ -14,7 +14,7 @@
               <span v-text="$t('portfolioDevTranslate.homePage.profession')"></span>
             </div>
             <div>
-              <button type="button" class="btn btn-outline-success">
+              <button type="button" class="btn btn-outline-success" style="margin-top: 18px">
                 <span v-text="$t('portfolioDevTranslate.homePage.button')"></span>
               </button>
             </div>
@@ -67,5 +67,6 @@
   font-weight: 550;
   line-height: normal;
   width: 215.043px;
+  margin-top: 13px
 }
 </style>
