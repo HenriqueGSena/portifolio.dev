@@ -1,3 +1,9 @@
-import { Vue } from "vue-class-component";
+import { Options, Vue } from 'vue-class-component'
+import Showprojeto from '@/components/projects/show-projeto.vue'
 
-export default class home extends Vue {}
+@Options({
+    components: {
+        'show-projeto': Showprojeto
+    }
+})
+export default class Home extends Vue {}

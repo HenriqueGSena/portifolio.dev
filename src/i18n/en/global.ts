@@ -10,6 +10,9 @@ export const optionsLanguages = {
             titleName: 'Henrique Sena',
             profession: 'Full-Stack Developer',
             button: 'Download CV'
+        },
+        project: {
+            title: 'Projetos Portfólio'
         }
     }
 }

@@ -25,6 +25,7 @@
         </div>
       </div>
     </div>
+    <show-projeto style="text-align: center">Project Portfolio</show-projeto>
   </div>
 </template>
 
@@ -34,7 +35,7 @@
 .home-page {
   color: #ffffff;
   background-color: #242423;
-  height: 100vh;
+  height: auto;
 }
 
 .img-fluid {
