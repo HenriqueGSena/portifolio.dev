@@ -3,43 +3,78 @@
     <h2 id="page-heading" data-cy="ShowProjetoHeading">
       <span v-text="$t('portfolioDevTranslate.project.title')"></span>
     </h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div class="card">
-            <img class="card-img-top" src="https://www.placecage.com/150x150">
+    <div class="container" style="margin-top: 52px">
+      <div class="row justify-content-center">
+        <div class="col-3">
+          <div class="card" type="button">
+            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a card.</p>
+              <p class="card-text">card's content.</p>
             </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card">
-            <img class="card-img-top" src="https://www.placecage.com/150x150">
+
+        <div class="col-3">
+          <div class="card" type="button">
+            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a card.</p>
+              <p class="card-text">card's content.</p>
             </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card">
-            <img class="card-img-top" src="https://www.placecage.com/150x150">
+
+        <div class="col-3">
+          <div class="card" type="button">
+            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a card.</p>
+              <p class="card-text">card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center" style="margin-top: 3%">
+        <div class="col-3">
+          <div class="card" type="button">
+            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" type="button">
+            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" type="button">
+            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">card's content.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
 <script lang="ts" src="./show-projeto.component.ts"></script>
 
 <style scoped>
-
+.card-body {
+  background-color: #242423;
+}
 </style>
