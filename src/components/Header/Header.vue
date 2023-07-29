@@ -1,21 +1,14 @@
 <template>
     <div class="menu">
       <ul class="nav justify-content-center">
-        <div class="logo">
-          <li class="nav-item">
-            <!-- <a>
-              <img src="@/assets/logo.png" alt="logo" href="home">
-            </a> -->
-          </li>
-        </div>
         <li class="nav-item">
-          <a class="nav-link" href="about" style="color: #27AE60;" v-text="$t('portfolioDevTranslate.menu.aboutMe')"></a>
+          <a class="nav-link" href="about" style="color: #FFFFFF;" v-text="$t('portfolioDevTranslate.menu.aboutMe')"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="projects" style="color: #27AE60;" v-text="$t('portfolioDevTranslate.menu.projects')"></a>
+          <a class="nav-link" href="projects" style="color: #FFFFFF;" v-text="$t('portfolioDevTranslate.menu.projects')"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact" style="color: #27AE60;" v-text="$t('portfolioDevTranslate.menu.contact')"></a>
+          <a class="nav-link" href="contact" style="color: #FFFFFF;" v-text="$t('portfolioDevTranslate.menu.contact')"></a>
         </li>
       </ul>
     </div>
@@ -36,10 +29,6 @@
   z-index: 999;
   transition: all 0.3s ease;
   background: #242423;
-}
-
-.logo {
-  width: 15%;
 }
 
 </style>
