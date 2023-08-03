@@ -1,6 +1,6 @@
 <template>
     <div class="menu">
-      <ul class="nav justify-content-center">
+      <ul class="nav nav-pills justify-content-center" role="tablist"Adicionando >
         <li class="nav-item">
           <a class="nav-link" href="about" style="color: #FFFFFF;" v-text="$t('portfolioDevTranslate.menu.aboutMe')"></a>
         </li>
