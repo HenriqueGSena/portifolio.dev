@@ -2,15 +2,23 @@
     <div class="menu">
       <ul class="nav nav-pills justify-content-center" role="tablist">
         <li class="nav-item">
-          <a class="nav-link" href="about" style="color: #FFFFFF;" v-text="$t('portfolioDevTranslate.menu.aboutMe')"></a>
+          <a class="nav-link" href="projects" v-text="$t('portfolioDevTranslate.menu.home')"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="projects" style="color: #FFFFFF;" v-text="$t('portfolioDevTranslate.menu.projects')"></a>
+          <router-link
+              to="/about"
+              class="nav-link"
+              v-text="$t('portfolioDevTranslate.menu.aboutMe')"
+          ></router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact" style="color: #FFFFFF;" v-text="$t('portfolioDevTranslate.menu.contact')"></a>
+          <a class="nav-link" href="projects" v-text="$t('portfolioDevTranslate.menu.projects')"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact" v-text="$t('portfolioDevTranslate.menu.contact')"></a>
         </li>
       </ul>
+      <router-view></router-view>
     </div>
 </template>
 
@@ -31,4 +39,7 @@
   background: #242423;
 }
 
+a {
+  color: white !important;
+}
 </style>

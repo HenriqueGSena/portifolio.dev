@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="color: red">
     <h1>Funcionou, meu bom !!!!</h1>
   </div>
 </template>

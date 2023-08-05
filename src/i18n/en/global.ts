@@ -1,6 +1,7 @@
 export const optionsLanguages = {
     portfolioDevTranslate: {
         menu: {
+            home: 'Inicio',
             aboutMe: 'Sobre Mim',
             projects: 'Projetos',
             contact: 'Contatos'
