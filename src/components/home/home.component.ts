@@ -1,9 +1,9 @@
 import { Options, Vue } from 'vue-class-component'
-import Showprojeto from '@/components/projects/show-projeto.vue'
+import ProjectsGrid from '@/components/projects/ProjectsGrid.vue'
 
 @Options({
     components: {
-        'show-projeto': Showprojeto
+        'ProjectsGrid': ProjectsGrid
     }
 })
 export default class Home extends Vue {}

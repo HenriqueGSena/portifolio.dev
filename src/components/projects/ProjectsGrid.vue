@@ -71,7 +71,7 @@
   </div>
 </template>
 
-<script lang="ts" src="./show-projeto.component.ts"></script>
+<script lang="ts" src="./ProjectsGrid.component.ts"></script>
 
 <style scoped>
 .card-body {

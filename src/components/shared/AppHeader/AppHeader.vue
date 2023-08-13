@@ -2,7 +2,11 @@
     <div class="menu">
       <ul class="nav nav-pills justify-content-center" role="tablist">
         <li class="nav-item">
-          <a class="nav-link" href="projects" v-text="$t('portfolioDevTranslate.menu.home')"></a>
+          <router-link
+              to="/"
+              class="nav-link"
+              v-text="$t('portfolioDevTranslate.menu.home')"
+          ></router-link>
         </li>
         <li class="nav-item">
           <router-link
@@ -22,7 +26,7 @@
     </div>
 </template>
 
-<script lang="ts" src="./Header.component.ts"></script>
+<script lang="ts" src="./AppHeader.vue"></script>
 
 <style scoped>
 

@@ -24,8 +24,8 @@
           <img src="@/assets/dev.svg" class="img-fluid" alt="DevLog">
         </div>
       </div>
+      <ProjectsGrid style="text-align: center" />
     </div>
-    <show-projeto style="text-align: center">Project Portfolio</show-projeto>
   </div>
 </template>
 

@@ -1,13 +1,32 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import about from '@/components/about/about.vue';
+import Home from "@/components/home/home.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
+        path: '/',
+        name: 'Home',
+        component: Home,
+        meta: {
+            title: 'Portfolio-Home',
+        },
+    },
+    {
         path:'/about',
         name: 'about',
-        component: about
-    }
-]
+        component: () => import('../components/about/about.vue'),
+        meta: {
+            title: 'Portfolio-About',
+        },
+    },
+    {
+        path: '/projects',
+        name: 'Projects',
+        component: () => import('../views/projectView.vue'),
+        meta: {
+            title: 'Portfolio-Projects',
+        },
+    },
+];
 
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),

@@ -1,6 +1,5 @@
 <template>
-  <Header />
-  <home />
+  <AppHeader />
 </template>
 
 <script lang="ts" src="./App.component.ts"></script>
