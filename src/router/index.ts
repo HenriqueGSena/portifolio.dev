@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import Home from "@/components/home/home.vue";
+import Home from "../views/home.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -21,7 +21,7 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: '/projects',
         name: 'Projects',
-        component: () => import('../views/projectView.vue'),
+        component: () => import('../views/project.vue'),
         meta: {
             title: 'Portfolio-Projects',
         },
