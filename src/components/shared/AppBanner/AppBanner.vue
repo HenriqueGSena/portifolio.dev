@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="w-full md:w-1/3 text-left">
+    <div class="w-full md:w-1/3">
       <div class="row d-flex justify-content-center">
         <div class="col-md-6" id="col">
           <h1 class="name"
@@ -34,8 +34,7 @@
   </section>
 </template>
 
-<script lang="ts">
-</script>
+<script lang="ts"></script>
 
 <style scoped>
 #col {

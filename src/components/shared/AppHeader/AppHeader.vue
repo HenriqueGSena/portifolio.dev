@@ -26,7 +26,7 @@
     </div>
 </template>
 
-<script lang="ts" src="./AppHeader.vue"></script>
+<script lang="ts" src="./AppHeader.component.ts"></script>
 
 <style scoped>
 
@@ -40,7 +40,6 @@
   font-family: "Poppins", sans-serif;
   z-index: 999;
   transition: all 0.3s ease;
-  background: #242423;
 }
 
 a {

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2 id="page-heading" data-cy="ShowProjetoHeading">
-      <span v-text="$t('portfolioDevTranslate.project.title')"></span>
+    <h2 class="text-center">
+      <span v-text="$t('portfolioDevTranslate.project.title')" style="color: #FFFFFF"></span>
     </h2>
     <div class="container" style="margin-top: 52px">
       <div class="row justify-content-center">
@@ -74,7 +74,5 @@
 <script lang="ts" src="./ProjectsGrid.component.ts"></script>
 
 <style scoped>
-.card-body {
-  background-color: #242423;
-}
+
 </style>

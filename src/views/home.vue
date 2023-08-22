@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto">
     <AppBanner class="mb-5 sm:mb-8" />
+
+    <ProjectsGrid />
   </div>
 </template>
 
