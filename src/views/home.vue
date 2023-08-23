@@ -9,6 +9,7 @@
 <script lang="ts">
 import AppBanner from "@/components/shared/AppBanner/AppBanner.vue";
 import ProjectsGrid from "@/components/projects/ProjectsGrid.vue";
+
 export default {
   name: 'Home',
   components: {

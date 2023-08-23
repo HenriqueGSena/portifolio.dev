@@ -1,37 +1,33 @@
 <template>
-  <section>
-    <div class="w-full md:w-1/3">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-6" id="col">
-          <h1 class="name"
-              id="nameTitle"
-              v-text="$t('portfolioDevTranslate.homePage.titleName')"
-          ></h1>
-          <span class="stack"
-                id="subName"
-                v-text="$t('portfolioDevTranslate.homePage.profession')"
-          ></span>
-          <div class="flex justify-center sm:block">
-            <a class=""
-               download="Sena-Resume.pdf"
-               aria-label="Download Resume" href=""
-            >
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-6" id="col">
+      <h1 class="name"
+          id="nameTitle"
+          v-text="$t('portfolioDevTranslate.homePage.titleName')"
+      ></h1>
+      <span class="stack"
+            id="subName"
+            v-text="$t('portfolioDevTranslate.homePage.profession')"
+      ></span>
+      <div class="flex justify-center sm:block">
+        <a class=""
+           download="Sena-Resume.pdf"
+           aria-label="Download Resume" href=""
+        >
               <span type="button"
                     class="btn btn-outline-success mt-2"
                     v-text="$t('portfolioDevTranslate.homePage.button')"
               ></span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <img class="w-75 mt-lg-5" src="@/assets/dev.svg"
-              alt="Developer"
-          />
-        </div>
+        </a>
       </div>
     </div>
-  </section>
+
+    <div class="col-md-6">
+      <img class="w-75 mt-lg-5" src="@/assets/dev.svg"
+           alt="Developer"
+      />
+    </div>
+  </div>
 </template>
 
 <script lang="ts"></script>
