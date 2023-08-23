@@ -34,7 +34,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 .menu {
-  position: fixed;
   width: 100%;
   padding: 2%;
   font-family: "Poppins", sans-serif;
