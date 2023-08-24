@@ -12,7 +12,8 @@ export const optionsLanguages = {
             button: 'Download CV'
         },
         project: {
-            title: 'Projetos Portfólio'
+            title: 'Projetos Portfólio',
+            moreProject: 'Mais Projetos'
         }
     }
 }

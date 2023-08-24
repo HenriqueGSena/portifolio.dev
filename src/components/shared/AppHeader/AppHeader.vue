@@ -36,9 +36,6 @@
 .menu {
   width: 100%;
   padding: 2%;
-  font-family: "Poppins", sans-serif;
-  z-index: 999;
-  transition: all 0.3s ease;
 }
 
 a {
