@@ -15,7 +15,7 @@
            aria-label="Download Resume" href=""
         >
               <span type="button"
-                    class="btn btn-outline-success mt-2"
+                    class="btn btn-success mt-2"
                     v-text="$t('portfolioDevTranslate.homePage.button')"
               ></span>
         </a>

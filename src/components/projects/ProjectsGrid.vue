@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="text-center">
+    <div class="text-center text-white">
       <h2 v-text="$t('portfolioDevTranslate.project.title')"></h2>
     </div>
     <div class="container" style="margin-top: 52px">
@@ -43,7 +43,6 @@
 
 <style scoped>
 .text-center {
-  margin-top: 12%;
-  color: #FFFFFF
+  margin-top: 17%;
 }
 </style>

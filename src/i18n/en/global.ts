@@ -14,6 +14,9 @@ export const optionsLanguages = {
         project: {
             title: 'Projetos Portfólio',
             moreProject: 'Mais Projetos'
+        },
+        cotacts: {
+            titleContact: 'Siga-me'
         }
     }
 }
