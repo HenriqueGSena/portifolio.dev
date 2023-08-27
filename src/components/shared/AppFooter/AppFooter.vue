@@ -7,40 +7,32 @@
       <div class="container-fluid">
         <section class="mb-4">
           <!-- Github -->
-          <a
-              class="btn text-white btn-floating m-2"
-              style="background-color: #333333;"
+          <a class="btn text-white btn-floating m-2 custom-background rounded-circle"
               href="#!"
               role="button"
-          ><i class="fab fa-github"></i
-          ></a>
+          ><i class="bi bi-github custom-icon"></i>
+          </a>
 
           <!-- Twitter -->
-          <a
-              class="btn text-white btn-floating m-2"
-              style="background-color: #55acee;"
+          <a class="btn text-white btn-floating m-2 custom-background rounded-circle"
               href="#!"
               role="button"
-          ><i class="fab fa-twitter"></i
-          ></a>
+          ><i class="bi bi-twitter custom-icon"></i>
+          </a>
 
           <!-- Linkedin -->
-          <a
-              class="btn text-white btn-floating m-2"
-              style="background-color: #0082ca;"
+          <a class="btn text-white btn-floating m-2 custom-background rounded-circle"
               href="#!"
               role="button"
-          ><i class="fab fa-linkedin-in"></i
-          ></a>
+          ><i class="bi bi-linkedin custom-icon"></i>
+          </a>
 
           <!-- Instagram -->
-          <a
-              class="btn text-white btn-floating m-2"
-              style="background-color: #ac2bac;"
+          <a class="btn text-white btn-floating m-2 custom-background rounded-circle"
               href="#!"
               role="button"
-          ><i class="fab fa-instagram"></i
-          ></a>
+          ><i class="bi bi-instagram custom-icon"></i>
+          </a>
         </section>
       </div>
     </footer>
@@ -50,4 +42,13 @@
 <script lang="ts"></script>
 
 <style scoped>
+.custom-icon {
+  font-size: 24px;
+}
+.custom-background {
+  background-color: #27AE60;
+}
+.rounded-circle {
+  border-radius: 60%;
+}
 </style>
