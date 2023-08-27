@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-content-center text-center text-white custom-footer">
+  <div class="flex justify-content-center text-center text-white custom-footerCop">
     <div class="text-white">
       &copy; {{ copyrightDate }}.
       <a class="text-success">
@@ -24,8 +24,8 @@ export default {
 </script>
 
 <style scoped>
-.custom-footer {
+.custom-footerCop {
   height: 100%;
-  padding-bottom: 7%;
+  padding-bottom: 4%;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div>
-    <footer class="text-center text-white p-lg-4">
+    <footer class="text-center text-white custom-footer">
       <label>
         <h2 v-text="$t('portfolioDevTranslate.footer.titleContact')"></h2>
       </label>
-      <div class="container-fluid">
+      <div class="container-fluid" style="padding-top: 3%">
         <section class="mb-4">
           <!-- Github -->
           <a class="btn text-white btn-floating m-2 custom-background rounded-circle no-hover"
@@ -62,6 +62,10 @@ export default {
 }
 .rounded-circle {
   border-radius: 60%;
+}
+.custom-footer {
+  padding-top: 9%;
+  padding-bottom: 3%;
 }
 .no-hover {
   transition: none !important;
