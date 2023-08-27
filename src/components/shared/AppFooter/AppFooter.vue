@@ -2,7 +2,7 @@
   <div>
     <footer class="text-center text-white p-lg-4">
       <label>
-        <h2 v-text="$t('portfolioDevTranslate.cotacts.titleContact')"></h2>
+        <h2 v-text="$t('portfolioDevTranslate.footer.titleContact')"></h2>
       </label>
       <div class="container-fluid">
         <section class="mb-4">
@@ -36,10 +36,22 @@
         </section>
       </div>
     </footer>
+
+    <FooterCopyright />
   </div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+import FooterCopyright from "@/components/shared/AppFooter/FooterCopyright.vue";
+
+export default {
+  name: 'Footer',
+  components: {
+    FooterCopyright,
+  }
+}
+
+</script>
 
 <style scoped>
 .custom-icon {

@@ -15,8 +15,10 @@ export const optionsLanguages = {
             title: 'Projetos Portfólio',
             moreProject: 'Mais Projetos'
         },
-        cotacts: {
-            titleContact: 'Siga-me'
+        footer: {
+            titleContact: 'Siga-me',
+            authorization: 'Todos os direitos reservados',
+            author: 'Henrique Sena'
         }
     }
 }
