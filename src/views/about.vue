@@ -1,6 +1,8 @@
 <template>
-  <div class="container mx-auto">
-    <AboutMe />
+  <div>
+    <div class="container mx-auto">
+      <AboutMe />
+    </div>
   </div>
 </template>
 
