@@ -11,6 +11,14 @@ export const optionsLanguages = {
             profession: 'Full-Stack Developer',
             button: 'Download CV'
         },
+        aboutProgress: {
+            aboutTitle: 'Habilidades',
+            skillsLanguages: {
+                frontEnd: 'Front-end',
+                backEnd: 'Back-end',
+                dataBase: 'Database',
+            }
+        },
         project: {
             title: 'Projetos Portfólio',
             moreProject: 'Mais Projetos'
