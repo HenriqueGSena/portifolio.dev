@@ -17,6 +17,7 @@ export const optionsLanguages = {
                 frontEnd: 'Front-end',
                 backEnd: 'Back-end',
                 dataBase: 'Database',
+                containers: 'Contêiner',
             }
         },
         project: {

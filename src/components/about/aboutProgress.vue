@@ -14,6 +14,33 @@
                 <h4 class="card-title text-success"
                     v-text="$t('portfolioDevTranslate.aboutProgress.skillsLanguages.frontEnd')"
                 ></h4>
+                <div class="container mt-5">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/html.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/Css.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/javascript.svg" />
+                    </div>
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/VueJs.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/AngularJs.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/Typescript.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/NodeJS.svg" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -24,6 +51,19 @@
                 <h4 class="card-title text-success"
                     v-text="$t('portfolioDevTranslate.aboutProgress.skillsLanguages.backEnd')"
                 ></h4>
+                <div class="container mt-5">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/java.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/spring.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/groovy.svg" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -34,6 +74,41 @@
                 <h4 class="card-title text-success"
                     v-text="$t('portfolioDevTranslate.aboutProgress.skillsLanguages.dataBase')"
                 ></h4>
+                <div class="container mt-5">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/oracle.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/postgresql.svg" />
+                    </div>
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/mysql.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-md-4">
+                    <img src="@/assets/insignias/Liquibase.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="bg-transparent">
+              <div class="card-body">
+                <h4 class="card-title text-success"
+                    v-text="$t('portfolioDevTranslate.aboutProgress.skillsLanguages.containers')"
+                ></h4>
+                <div class="container mt-5">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="@/assets/insignias/Docker.svg" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -47,4 +122,7 @@
 </script>
 
 <style scoped>
+img {
+  width: 65px;
+}
 </style>
