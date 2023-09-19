@@ -18,7 +18,8 @@ export const optionsLanguages = {
                 backEnd: 'Back-end',
                 dataBase: 'Database',
                 containers: 'Contêiner',
-            }
+            },
+            experiences: 'Experiências'
         },
         project: {
             title: 'Projetos Portfólio',
