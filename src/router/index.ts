@@ -18,6 +18,14 @@ const routes: Array<RouteRecordRaw> = [
             title: 'Portfolio-About',
         },
     },
+    {
+        path:'/project',
+        name: 'Project',
+        component: () => import('../views/project.vue'),
+        meta: {
+            title: 'Portfolio-Project',
+        },
+    },
 ];
 
 const router = createRouter({
