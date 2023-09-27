@@ -25,6 +25,9 @@ export const optionsLanguages = {
             title: 'Projetos Portfólio',
             moreProject: 'Mais Projetos'
         },
+        projectsSingle: {
+            titleProject: 'Projetos Portfólio'
+        },
         footer: {
             titleContact: 'Siga-me',
             authorization: 'Todos os direitos reservados',

@@ -19,13 +19,13 @@ const routes: Array<RouteRecordRaw> = [
         },
     },
     {
-        path:'/project',
-        name: 'Project',
+        path:'/projects',
+        name: 'Projects',
         component: () => import('../views/project.vue'),
         meta: {
-            title: 'Portfolio-Project',
-        },
-    },
+            title: 'Portfolio-Projects',
+        }
+    }
 ];
 
 const router = createRouter({
