@@ -10,14 +10,10 @@
             v-text="$t('portfolioDevTranslate.homePage.profession')"
       ></span>
       <div class="flex justify-center sm:block">
-        <a class=""
-           download="Sena-Resume.pdf"
-           aria-label="Download Resume" href=""
+        <a class="btn btn-success mt-2" @click="downloadDocument"
+           download="curriculo-sena.pdf"
         >
-              <span type="button"
-                    class="btn btn-success mt-2"
-                    v-text="$t('portfolioDevTranslate.homePage.button')"
-              ></span>
+          <span v-text="$t('portfolioDevTranslate.homePage.button')"></span>
         </a>
       </div>
     </div>
@@ -30,7 +26,7 @@
   </div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts" src="./AppBanner.component.ts"></script>
 
 <style scoped>
 #col {
