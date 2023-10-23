@@ -7,9 +7,9 @@
     <ProjectsGrid />
 
     <div class="flex text-center mt-5">
-      <router-link to="" aria-label="More Project">
-        <button type="button" class="btn btn-success" title="More Project"
-                v-text="$t('portfolioDevTranslate.project.moreProject')"
+      <router-link to="/projects" aria-label="More Project">
+        <button type="button" class="btn btn-success"
+                title="More Project" v-text="$t('portfolioDevTranslate.project.moreProject')"
         ></button>
       </router-link>
     </div>
