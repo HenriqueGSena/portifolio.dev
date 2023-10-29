@@ -25,6 +25,14 @@ const routes: Array<RouteRecordRaw> = [
         meta: {
             title: 'Portfolio-Projects',
         }
+    },
+    {
+        path:'/contact',
+        name: 'Contact',
+        component: () => import('../views/contact.vue'),
+        meta: {
+            title: 'Portfolio-Contact'
+        }
     }
 ];
 
