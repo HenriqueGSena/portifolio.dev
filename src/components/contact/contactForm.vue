@@ -2,6 +2,7 @@
   <div>
     <div class="container border-dark rounded shadow-lg p-3 mb-5 bg-opacity-10 custom-container">
       <h4 class="text-white" v-text="$t('portfolioDevTranslate.contact.title')"></h4>
+      <br />
       <form>
         <div class="mb-3">
           <label class="form-label text-white" v-text="$t('portfolioDevTranslate.contact.name')"></label>
@@ -24,9 +25,7 @@
   </div>
 </template>
 
-<script>
-
-</script>
+<script></script>
 
 <style scoped>
 .custom-container {

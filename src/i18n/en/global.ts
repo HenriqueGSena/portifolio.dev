@@ -33,7 +33,18 @@ export const optionsLanguages = {
             name: 'Nome',
             email: 'Email',
             subject: 'Assunto',
-            message: 'Mensagem'
+            tel: 'Telefone',
+            end: 'Endereço',
+            message: 'Mensagem',
+            contactDetails: {
+                details: 'Detalhes do Contato'
+            }
+        },
+        information: {
+            user: 'Carlos Henrique',
+            address: 'Rio de Janeiro',
+            phone: '(21) 98153-7322',
+            mail: 'carlossena3525@gmail.com'
         },
         footer: {
             titleContact: 'Siga-me',
