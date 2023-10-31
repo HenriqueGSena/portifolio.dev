@@ -28,6 +28,13 @@ export const optionsLanguages = {
         projectsSingle: {
             titleProject: 'Projetos Portfólio'
         },
+        contact: {
+            title: 'Contatos',
+            name: 'Nome',
+            email: 'Email',
+            subject: 'Assunto',
+            message: 'Mensagem'
+        },
         footer: {
             titleContact: 'Siga-me',
             authorization: 'Todos os direitos reservados',
