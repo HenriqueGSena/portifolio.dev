@@ -36,6 +36,7 @@ export const optionsLanguages = {
             tel: 'Telefone',
             end: 'Endereço',
             message: 'Mensagem',
+            send: 'Enviar',
             contactDetails: {
                 details: 'Detalhes do Contato'
             }

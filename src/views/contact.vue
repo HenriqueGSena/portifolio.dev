@@ -1,8 +1,14 @@
 <template>
-  <div class="container mx-auto">
-    <contact-form />
+  <div class="container align-content-center">
+    <div class="row">
+      <div class="col">
+        <contact-form />
+      </div>
 
-    <contact-details />
+      <div class="col">
+        <contact-details />
+      </div>
+    </div>
   </div>
 </template>
 

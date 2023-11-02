@@ -21,15 +21,22 @@
           <textarea class="form-control" rows="3"></textarea>
         </div>
       </form>
+
+      <div class="flex justify-center sm:block">
+        <a class="btn btn-success mt-2">
+          <span v-text="$t('portfolioDevTranslate.contact.send')"></span>
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+</script>
 
 <style scoped>
 .custom-container {
-  width: 35%;
-  margin-top: 50px;
+  width: 75%;
+  margin-top: 52px;
 }
 </style>

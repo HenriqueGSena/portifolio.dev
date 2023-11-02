@@ -42,8 +42,8 @@
 
 <style scoped>
 .custom-container-details {
-  width: 35%;
-  margin-top: 50px;
+  width: 65%;
+  margin-top: 52px;
 }
 
 i.bi {
