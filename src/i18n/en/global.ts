@@ -28,6 +28,25 @@ export const optionsLanguages = {
         projectsSingle: {
             titleProject: 'Projetos Portfólio'
         },
+        contact: {
+            title: 'Contatos',
+            name: 'Nome',
+            email: 'Email',
+            subject: 'Assunto',
+            tel: 'Telefone',
+            end: 'Endereço',
+            message: 'Mensagem',
+            send: 'Enviar',
+            contactDetails: {
+                details: 'Detalhes do Contato'
+            }
+        },
+        information: {
+            user: 'Carlos Henrique',
+            address: 'Rio de Janeiro',
+            phone: '(21) 98153-7322',
+            mail: 'carlossena3525@gmail.com'
+        },
         footer: {
             titleContact: 'Siga-me',
             authorization: 'Todos os direitos reservados',

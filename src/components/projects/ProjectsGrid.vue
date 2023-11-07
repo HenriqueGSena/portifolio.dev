@@ -1,37 +1,31 @@
 <template>
   <section>
-    <div class="text-center text-white">
-      <h2 v-text="$t('portfolioDevTranslate.project.title')"></h2>
-      <span class="border-bottom border-3 border-success d-block mx-auto" style="width: 10%;"></span>
-    </div>
-    <div class="container" style="margin-top: 52px">
-      <div class="row justify-content-center">
-        <div class="col-3">
-          <div class="card" type="button">
-            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">card's content.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-3">
-          <div class="card" type="button">
-            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">card's content.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-3">
-          <div class="card" type="button">
-            <img class="card-img-top" src="@/assets/error.svg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">card's content.</p>
+    <div
+        class="container" style="margin-top: 52px"
+    >
+      <div
+          class="row justify-content-center"
+      >
+        <div
+            class="col-3" v-for="project in projects" :key="project.id"
+        >
+          <div class="card border-0 shadow">
+            <img class="img-thumbnail"
+                 :src="project.img"
+                 alt="ImageProject"
+            >
+            <div class="card-body text-light bg-dark">
+              <h5 class="card-title text-center"
+                  style="margin: 0"
+              >
+                {{ project.title }}
+              </h5>
+              <p class="card-text text-center mt-3"
+                 style="margin: 0"
+              >
+                {{ project.category }}
+              </p>
+              <a :href="project.url" target="_blank" class="btn btn-success mt-4">Saiba mais</a>
             </div>
           </div>
         </div>
