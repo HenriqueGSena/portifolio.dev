@@ -26,9 +26,11 @@
              v-text="$t('portfolioDevTranslate.menu.contact')"></a>
         </li>
       </ul>
-      <transition name="fade" mode="out-in">
-        <router-view />
-      </transition>
+      <router-view v-slot="{ Component }">
+        <transition name="fade">
+          <component :is="Component" />
+        </transition>
+      </router-view>
     </div>
 </template>
 
