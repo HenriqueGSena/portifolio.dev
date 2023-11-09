@@ -27,13 +27,13 @@
         </div>
       </div>
 
-      <div class="row mb-3">
-        <i class="bi bi-globe2 text-success col-sm-2"></i>
-        <div class="col-sm-10">
-          <label class="text-white" v-text="$t('portfolioDevTranslate.contact.email')"></label><br>
-          <label class="text-success" v-text="$t('portfolioDevTranslate.information.mail')"></label>
-        </div>
-      </div>
+<!--      <div class="row mb-3">-->
+<!--        <i class="bi bi-globe2 text-success col-sm-2"></i>-->
+<!--        <div class="col-sm-10">-->
+<!--          <label class="text-white" v-text="$t('portfolioDevTranslate.contact.email')"></label><br>-->
+<!--          <label class="text-success" v-text="$t('portfolioDevTranslate.information.mail')"></label>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
   </div>
 </template>
