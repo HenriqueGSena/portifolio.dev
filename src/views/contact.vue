@@ -1,9 +1,9 @@
 <template>
   <div class="container align-content-center">
     <div class="row">
-      <div class="col">
-        <contact-form />
-      </div>
+<!--      <div class="col">-->
+<!--        <contact-form />-->
+<!--      </div>-->
 
       <div class="col">
         <contact-details />
