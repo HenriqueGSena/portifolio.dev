@@ -12,7 +12,7 @@
             <div>
               <img src="@/assets/jobs/doTerra.svg"  alt="doTerra" title="doTerra" style="height: 25px"/>
             </div>
-            <p class="text-success">Freelancer</p>
+            <p style="padding-top: 12px" class="text-success">Freelancer</p>
             <p>
               "Responsável pelo desenvolvimento da plataforma e integração com outras paginas para captação de clientes"
               <br>
@@ -23,11 +23,11 @@
         </div>
         <div class="col-md-6">
           <div class="card bg-transparent text-start border-dark rounded p-4">
-            <p class="badge text-success text-start font-weight-400">Jan/2023 - Ate Momento</p>
+            <p class="badge text-success text-start font-weight-400">Ago/2022 - Jan/2024</p>
             <div>
               <img src="@/assets/jobs/owse.png"  alt="owse" title="owse" style="height: 25px"/>
             </div>
-            <p class="text-success">Desenvolvedor FullStack - Junior</p>
+            <p style="padding-top: 12px" class="text-success">Desenvolvedor FullStack - Junior</p>
             <p>
               "Atuando com time de desenvolvimento sendo responsável pela criação de novas funcionalidades e integrações
               com sistemas legados ja existentes."
