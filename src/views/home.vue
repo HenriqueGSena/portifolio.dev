@@ -22,8 +22,10 @@
       </router-link>
     </div>
     <div class="sendMessage">
-      <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" target="_blank">
-        <i style="margin-top:16px" class="bi bi-whatsapp"></i>
+      <a class="btn text-white btn-floating m-2 custom-background rounded-circle no-hover"
+         target="_blank" role="button"
+         :href="whatsappLink"
+      ><i class="bi bi-whatsapp"></i>
       </a>
     </div>
   </div>
@@ -35,12 +37,13 @@
 .container-grid {
   padding-top: 12%;
 }
+
 .sendMessage a {
   position:fixed;
-  width:55px;
-  height:49px;
-  bottom:45px;
-  right:45px;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
