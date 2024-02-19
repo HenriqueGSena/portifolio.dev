@@ -44,8 +44,8 @@ export const optionsLanguages = {
         information: {
             user: 'Carlos Henrique',
             address: 'Rio de Janeiro',
-            phone: '(21) 99283-4373',
-            // mail: 'carlossena3525@gmail.com'
+            // phone: '(21) 99283-4373',
+            mail: 'carloshenrique3250@gmail.com'
         },
         footer: {
             titleContact: 'Siga-me',
