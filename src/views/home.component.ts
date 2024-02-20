@@ -1,7 +1,7 @@
 import { Options, Vue } from "vue-class-component";
+import { Prop } from "vue-property-decorator";
 import AppBanner from "@/components/shared/AppBanner/AppBanner.vue";
 import ProjectsGrid from "@/components/projects/ProjectsGrid.vue";
-import { Prop } from "vue-property-decorator";
 
 @Options({
     components: {

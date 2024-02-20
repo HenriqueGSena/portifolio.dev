@@ -25,7 +25,13 @@
               >
                 {{ project.category }}
               </p>
-              <a :href="project.url" target="_blank" class="btn btn-success mt-4">Saiba mais</a>
+              <p class="card-text text-center mt-3">
+                {{ project.description }}
+              </p>
+              <a class="btn btn-success mt-4"
+                 :href="project.url"
+                 target="_blank"
+              >Saiba mais</a>
             </div>
           </div>
         </div>
