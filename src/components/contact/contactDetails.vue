@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container border-dark rounded shadow-lg p-3 mb-5 bg-opacity-10 custom-container-details">
-      <h4 class="text-white" v-text="$t('portfolioDevTranslate.contact.contactDetails.details')"></h4>
+      <h4 class="text-white text-center" v-text="$t('portfolioDevTranslate.contact.contactDetails.details')"></h4>
       <br />
       <div class="row mb-3">
         <i class="bi bi-person-circle text-success col-sm-2"></i>
@@ -12,7 +12,7 @@
       </div>
 
       <div class="row mb-3">
-        <i class="bi bi-envelope-fill text-success col-sm-2"></i>
+        <i class="bi bi-envelope text-success col-sm-2"></i>
         <div class="col-sm-10">
           <label class="text-white" v-text="$t('portfolioDevTranslate.contact.end')"></label><br>
           <label class="text-success" v-text="$t('portfolioDevTranslate.information.address')"></label>
@@ -20,20 +20,12 @@
       </div>
 
       <div class="row mb-3">
-        <i class="bi bi-telephone-inbound-fill text-success col-sm-2"></i>
+        <i class="bi bi-envelope-at text-success col-sm-2"></i>
         <div class="col-sm-10">
-          <label class="text-white" v-text="$t('portfolioDevTranslate.contact.tel')"></label><br>
-          <label class="text-success" v-text="$t('portfolioDevTranslate.information.phone')"></label>
+          <label class="text-white" v-text="$t('portfolioDevTranslate.contact.email')"></label><br>
+          <label class="text-success" v-text="$t('portfolioDevTranslate.information.mail')"></label>
         </div>
       </div>
-
-<!--      <div class="row mb-3">-->
-<!--        <i class="bi bi-globe2 text-success col-sm-2"></i>-->
-<!--        <div class="col-sm-10">-->
-<!--          <label class="text-white" v-text="$t('portfolioDevTranslate.contact.email')"></label><br>-->
-<!--          <label class="text-success" v-text="$t('portfolioDevTranslate.information.mail')"></label>-->
-<!--        </div>-->
-<!--      </div>-->
     </div>
   </div>
 </template>

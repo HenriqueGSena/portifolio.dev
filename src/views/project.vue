@@ -2,8 +2,9 @@
   <div>
     <div class="container mx-auto">
       <ProjectSingle />
-      <ProjectsGrid />
     </div>
+
+    <ProjectsGrid />
   </div>
 </template>
 
