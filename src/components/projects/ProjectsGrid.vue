@@ -1,43 +1,25 @@
 <template>
-  <section>
-    <div
-        class="container" style="margin-top: 52px"
-    >
-      <div
-          class="row justify-content-center"
-      >
-        <div
-            class="col-3" v-for="project in projects" :key="project.id"
+  <div>
+    <div class="container" style="margin-top: 52px">
+      <div class="row">
+        <div class="col-3 mb-4"
+             v-for="(repo, index) in repositories"
+             :key="repo.id"
+             :class="{ 'mr-4': index !== repositories.length - 1 }"
         >
           <div class="card border-0 shadow">
-            <img class="img-thumbnail"
-                 :src="project.img"
-                 alt="ImageProject"
-            >
             <div class="card-body text-light bg-dark">
-              <h5 class="card-title text-center"
-                  style="margin: 0"
-              >
-                {{ project.title }}
-              </h5>
-              <p class="card-text text-center mt-3"
-                 style="margin: 0"
-              >
-                {{ project.category }}
-              </p>
-              <p class="card-text text-center mt-3">
-                {{ project.description }}
-              </p>
-              <a class="btn btn-success mt-4"
-                 :href="project.url"
-                 target="_blank"
-              >Saiba mais</a>
+              <h5 class="card-title text-center" style="margin: 0">{{ repo.name }}</h5>
+              <p class="card-text text-center mt-3" style="margin: 0"></p>
+              <p class="card-text text-center mt-3"></p>
+              <a class="bi bi-globe2 mt-4" :href="repo.html_url" target="_blank"></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+
+  </div>
 </template>
 
 <script lang="ts" src="./ProjectsGrid.component.ts"></script>
