@@ -15,11 +15,11 @@
               v-text="$t('portfolioDevTranslate.menu.aboutMe')"
           ></router-link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link"
-             href="projects"
-             v-text="$t('portfolioDevTranslate.menu.projects')"></a>
-        </li>
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link"-->
+<!--             href="projects"-->
+<!--             v-text="$t('portfolioDevTranslate.menu.projects')"></a>-->
+<!--        </li>-->
         <li class="nav-item">
           <a class="nav-link"
              href="contact"

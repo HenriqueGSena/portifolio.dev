@@ -4,7 +4,11 @@ import apiGithub from "@/service/apiGithub";
 export default class ProjectsGrid extends Vue {
     private repositories: any[] = [];
 
-    async mounted() {
+    mounted() {
+        this.getAllRepositories();
+    }
+
+    public async getAllRepositories() {
         try {
             const githubApi = new apiGithub();
             const repos = await  githubApi.findEverythingRepositoriesByGithub();

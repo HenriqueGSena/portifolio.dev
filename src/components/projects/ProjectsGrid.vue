@@ -10,8 +10,6 @@
           <div class="card border-0 shadow">
             <div class="card-body text-light bg-dark">
               <h5 class="card-title text-center" style="margin: 0">{{ repo.name }}</h5>
-              <p class="card-text text-center mt-3" style="margin: 0"></p>
-              <p class="card-text text-center mt-3"></p>
               <a class="bi bi-globe2 mt-4" :href="repo.html_url" target="_blank"></a>
             </div>
           </div>

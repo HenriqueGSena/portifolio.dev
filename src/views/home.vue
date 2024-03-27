@@ -12,15 +12,15 @@
       <ProjectsGrid />
     </div>
 
-    <div class="flex text-center mt-5">
-      <router-link to="/projects" aria-label="More Project">
-        <button type="button"
-                class="btn btn-success"
-                title="More Project"
-                v-text="$t('portfolioDevTranslate.project.moreProject')"
-        ></button>
-      </router-link>
-    </div>
+<!--    <div class="flex text-center mt-5">-->
+<!--      <router-link to="/projects" aria-label="More Project">-->
+<!--        <button type="button"-->
+<!--                class="btn btn-success"-->
+<!--                title="More Project"-->
+<!--                v-text="$t('portfolioDevTranslate.project.moreProject')"-->
+<!--        ></button>-->
+<!--      </router-link>-->
+<!--    </div>-->
     <div class="sendMessage">
       <a class="btn text-white btn-floating m-2 custom-background rounded-circle no-hover"
          target="_blank" role="button"
