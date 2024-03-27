@@ -36,16 +36,11 @@ export const optionsLanguages = {
             tel: 'Telefone',
             end: 'Endereço',
             message: 'Mensagem',
-            send: 'Enviar',
-            contactDetails: {
-                details: 'Detalhes do Contato'
-            }
+            send: 'Enviar'
         },
         information: {
             user: 'Carlos Henrique',
-            address: 'Rio de Janeiro',
-            // phone: '(21) 99283-4373',
-            mail: 'carloshenrique3250@gmail.com'
+            address: 'Rio de Janeiro'
         },
         footer: {
             titleContact: 'Siga-me',
