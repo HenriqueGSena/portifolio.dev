@@ -1,5 +1,7 @@
 # portifolio-dev
 
+O objetivo era expor as minhas competencias e tecnologias que ja utilizei no desenvolvimento de projetos.
+
 ## Project setup
 ```
 npm install
@@ -14,6 +16,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
