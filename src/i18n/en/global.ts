@@ -8,7 +8,7 @@ export const optionsLanguages = {
         },
         homePage: {
             titleName: 'Henrique Sena',
-            profession: 'Full-Stack Developer',
+            profession: 'Fullstack / Backend / Frontend',
             button: 'Download CV'
         },
         aboutProgress: {
