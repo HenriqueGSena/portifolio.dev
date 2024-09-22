@@ -11,8 +11,11 @@ export default class ProjectsGrid extends Vue {
     public async getAllRepositories() {
         try {
             const githubApi = new apiGithub();
-            const repos = await  githubApi.findEverythingRepositoriesByGithub();
-            this.repositories = repos;
+            const repos = await githubApi.findEverythingRepositoriesByGithub();
+            
+            this.repositories = repos.sort((a: any, b: any) => {
+                return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+            });
         } catch (err) {
             console.error("Error repository", err);
             throw err;

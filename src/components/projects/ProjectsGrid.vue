@@ -2,7 +2,7 @@
   <div>
     <div class="container" style="margin-top: 52px">
       <div class="row justify-content-center">
-        <div class="col-5 mb-4" v-for="(repo, index) in repositories" :key="repo.id"
+        <div class="col-md-5 col-12 mb-4 justify-content-center" v-for="(repo, index) in repositories.slice(0,6)" :key="repo.id"
           :class="{ 'mr-4': index !== repositories.length - 1 }">
           <div class="card rounded-0 border-0 shadow">
             <div class="card-body text-light" style="background-color: #1B1B1B;">
@@ -26,7 +26,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
