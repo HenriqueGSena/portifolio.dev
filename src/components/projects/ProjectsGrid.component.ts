@@ -2,7 +2,7 @@ import {Vue} from "vue-class-component";
 import apiGithub from "@/service/apiGithub";
 
 export default class ProjectsGrid extends Vue {
-    private repositories: any[] = [];
+    public repositories: any[] = [];
 
     mounted() {
         this.getAllRepositories();

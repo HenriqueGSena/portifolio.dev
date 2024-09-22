@@ -13,7 +13,7 @@
         <a class="btn btn-success mt-2" @click="downloadDocument"
            download="curriculo-sena.pdf"
         >
-          <span v-text="$t('portfolioDevTranslate.homePage.button')"></span>
+          <span v-text="$t('portfolioDevTranslate.homePage.downloadCV')"></span>
         </a>
       </div>
     </div>
