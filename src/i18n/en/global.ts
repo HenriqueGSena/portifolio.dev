@@ -8,8 +8,8 @@ export const optionsLanguages = {
         },
         homePage: {
             titleName: 'Henrique Sena',
-            profession: 'Full-Stack Developer',
-            button: 'Download CV'
+            profession: 'Fullstack / Backend / Frontend',
+            downloadCV: 'Download Curriculo'
         },
         aboutProgress: {
             aboutTitle: 'Habilidades',
@@ -23,7 +23,9 @@ export const optionsLanguages = {
         },
         project: {
             title: 'Projetos Portfólio',
-            moreProject: 'Mais Projetos'
+            moreProject: 'Mais Projetos',
+            language: 'Languages:',
+            acess: 'acessar'
         },
         projectsSingle: {
             titleProject: 'Projetos Portfólio'

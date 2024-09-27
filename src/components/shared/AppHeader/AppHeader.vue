@@ -1,37 +1,34 @@
 <template>
-    <div class="menu">
-      <ul class="nav nav-pills justify-content-center" role="tablist">
-        <li class="nav-item">
-          <router-link
-              to="/"
-              class="nav-link"
-              v-text="$t('portfolioDevTranslate.menu.home')"
-          ></router-link>
-        </li>
-        <li class="nav-item">
-          <router-link
-              to="/about"
-              class="nav-link"
-              v-text="$t('portfolioDevTranslate.menu.aboutMe')"
-          ></router-link>
-        </li>
-<!--        <li class="nav-item">-->
-<!--          <a class="nav-link"-->
-<!--             href="projects"-->
-<!--             v-text="$t('portfolioDevTranslate.menu.projects')"></a>-->
-<!--        </li>-->
-        <li class="nav-item">
-          <a class="nav-link"
-             href="contact"
-             v-text="$t('portfolioDevTranslate.menu.contact')"></a>
-        </li>
-      </ul>
-      <router-view v-slot="{ Component }">
-        <transition name="fade">
-          <component :is="Component" />
-        </transition>
-      </router-view>
-    </div>
+  <div class="menu">
+    <ul class="nav nav-pills justify-content-center pt-5" role="tablist">
+      <li class="nav-item">
+        <router-link to="/" class="nav-link">
+          {{ $t('portfolioDevTranslate.menu.home') }}
+        </router-link>
+      </li>
+
+      <li class="nav-item">
+        <router-link to="/about" class="nav-link">
+          {{ $t('portfolioDevTranslate.menu.aboutMe') }}
+        </router-link>
+      </li>
+      <!--        <li class="nav-item">-->
+      <!--          <a class="nav-link"-->
+      <!--             href="projects"-->
+      <!--             v-text="$t('portfolioDevTranslate.menu.projects')"></a>-->
+      <!--        </li>-->
+      <li class="nav-item">
+        <router-link to="/contact" class="nav-link">
+          {{ $t('portfolioDevTranslate.menu.contact') }}
+        </router-link>
+      </li>
+    </ul>
+    <router-view v-slot="{ Component }">
+      <transition name="fade">
+        <component :is="Component" />
+      </transition>
+    </router-view>
+  </div>
 </template>
 
 <script lang="ts" src="./AppHeader.component.ts"></script>

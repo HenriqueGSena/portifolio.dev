@@ -1,10 +1,10 @@
 <template>
   <div class="row d-flex justify-content-center">
     <div class="col-md-6" id="col">
-      <h1 class="name"
+      <h3 class="name"
           id="nameTitle"
           v-text="$t('portfolioDevTranslate.homePage.titleName')"
-      ></h1>
+      ></h3>
       <span class="stack"
             id="subName"
             v-text="$t('portfolioDevTranslate.homePage.profession')"
@@ -13,12 +13,12 @@
         <a class="btn btn-success mt-2" @click="downloadDocument"
            download="curriculo-sena.pdf"
         >
-          <span v-text="$t('portfolioDevTranslate.homePage.button')"></span>
+          <span v-text="$t('portfolioDevTranslate.homePage.downloadCV')"></span>
         </a>
       </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 pt-5 text-center">
       <img class="w-75 mt-lg-5" src="@/assets/dev.svg"
            alt="Developer"
       />

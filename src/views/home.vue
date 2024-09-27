@@ -11,7 +11,6 @@
       </div>
       <ProjectsGrid />
     </div>
-
 <!--    <div class="flex text-center mt-5">-->
 <!--      <router-link to="/projects" aria-label="More Project">-->
 <!--        <button type="button"-->
@@ -22,7 +21,7 @@
 <!--      </router-link>-->
 <!--    </div>-->
     <div class="sendMessage">
-      <a class="btn text-white btn-floating m-2 custom-background rounded-circle no-hover"
+      <a class="btn text-white btn-floating m-2 custom-background rounded-circle no-hover position-fixed"
          target="_blank" role="button"
          :href="whatsappLink"
       ><i class="bi bi-whatsapp"></i>
