@@ -17,6 +17,9 @@ export const optionsLanguages = {
                 frontEnd: 'Front-end',
                 backEnd: 'Back-end',
                 dataBase: 'Database',
+                tools: 'Tools',
+                cloud: 'Cloud',
+                so: 'So',
                 containers: 'Contêiner',
             },
             experiences: 'Experiências'

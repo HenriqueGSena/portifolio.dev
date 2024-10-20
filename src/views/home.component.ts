@@ -11,6 +11,6 @@ import ProjectsGrid from "@/components/projects/ProjectsGrid.vue";
 export default class home extends Vue {
 
     get whatsappLink():string {
-        return `https://wa.me/5521992834373`;
+        return `https://wa.me/5521988136224?text=Ola%2C%20gostaria%20de%20contratar%20seus%20servi%C3%A7os`;
     }
 }

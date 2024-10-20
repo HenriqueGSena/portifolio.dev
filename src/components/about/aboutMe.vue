@@ -1,18 +1,14 @@
 <template>
   <div class="container text-center mt-lg-5">
     <div class="row">
-      <div class="col">
-        <div class="d-grid gap-3 p-lg-5 w-25" style="margin-left: 25%">
-          <img class="rounded custom-image"
-               src="@/assets/perfil.png"
-          />
+      <div class="col-md-6 pt-4">
+        <div>
+          <img class="rounded custom-image" src="@/assets/perfil.png" />
         </div>
       </div>
-      <div class="col">
-        <div class="text-white text-sm-start mt-5" style="align-content: center">
-          <p v-for="bio in bios"
-             :key="bio.id"
-          >
+      <div class="col-md-6 d-flex mt-3">
+        <div class="text-white text-sm-start" style="align-content: center">
+          <p v-for="bio in bios" :key="bio.id">
             {{ bio.bio }}
           </p>
         </div>
@@ -28,19 +24,11 @@ export default {
       bios: [
         {
           id: 1,
-          bio: 'Desenvolvedor fullstack há 2 anos já atuante e alguns projetos de impacto no mercado, com reconhecimento em\n' +
-              'performance, entrega de soluções de projetos.',
+          bio: 'Me chamo Henrique Desenvolvedor de Software graduado com formação em Sistemas da Informação pela Universidade Veiga de Almeida(UVA) contendo Pós-Graduação em Engenharia de Software pela (Puc Minas).\n\n Desenvolvedor Full-Stack, focado no desenvolvimento de aplicações web, experiência do usuário com as melhores práticas utilizadas no mercado, profissional alinhado à metodologia ágil, desenvolvimento e integrações entre sistemas.',
         },
         {
           id: 2,
-          bio: '"Meu inicio na carreira de desenvolvimento se deu quando descobri o poder em criar soluções através\n' +
-              'de códigos e vê o resultado imediato."',
-        },
-        {
-          id: 3,
-          bio: 'Um dos meus primeiros trabalhos se deu na realização de freelancer montando um site onde o foco era a\n' +
-              'venda de produtos naturais pra saúde, proporcionando soluções estratégicas na entrega dos resultados\n' +
-              'recebendo um excelente feedback.',
+          bio: 'Sólida experiência em planejamento e desenvolvimento do front-end da aplicação (LeadCred), alteração de layout com estilizações utilizando tailwind css, criação de dashboard para painel principal, utilizando Vue.Js/Javascript, integração com backend para envio e recebimento de dados feitos em laravel/php, gerenciamento de banco de dados realizando querys para consultas e tratamento de serviços feitos em MySQL, importações de dados, correções de bugs na aplicação, treinamento de novos estagiários dentro do Sistema Log-Ai, participação em projeto Billing, no faturamento de pagamentos dos serviços contratados de clientes e empresas.',
         }
       ],
     };
