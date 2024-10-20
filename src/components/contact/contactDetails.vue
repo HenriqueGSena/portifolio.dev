@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container border-dark rounded shadow-lg p-3 mb-5 bg-opacity-10 custom-container-details">
+    <div class="container border-dark rounded shadow-lg p-3 mb-5 bg-opacity-10 custom-container-details page-conct">
       <div class="row mb-3">
         <i class="bi bi-person-circle text-success col-sm-2"></i>
         <div class="col-sm-10">
@@ -34,6 +34,7 @@
 .custom-container-details {
   width: 65%;
   margin-top: 52px;
+  min-height: 100vh;
 }
 
 i.bi {
